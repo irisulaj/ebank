@@ -1,0 +1,8 @@
+@charset "utf-8";
+.fieldset{width: 173px;}
+.fieldset{margin-top: 250px; margin-left: 550px; border-style: inset;}
+.submit{margin-left: 57px;}
+.body{background-image: url("https://i.stack.imgur.com/jGlzr.png"); background-size: cover;}
+.submit{background-color: white;}
+.p{text-align: center;}
+.p{color: red;}

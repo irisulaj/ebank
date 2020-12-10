@@ -1,0 +1,61 @@
+@charset "utf-8";
+.header{height: 85px; width: 1350px;}
+
+.img1{float: left;}
+
+.img2{float: left;}
+a:hover {color:red ;}
+
+.wlcm{text-decoration: underline;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em red;
+    opacity: .8;}
+    .wlcm{font-size: 2em;}
+
+.img1{height:180px; width: 220px; position: top left;  }
+.img2{height:240px; width: 240px;border-radius: 50%;}
+.body1{background-image:url("http://myplacers.com/wp-content/uploads/2019/02/bigstock-Young-Asian-Married-Couple-Wor-231643450.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: cover;
+}
+.submit{background-color: white; border-style: inset;}
+
+.a{color: white;}
+.a{font-size: 1.5em;}
+
+
+.paragraph1{width: 680px; height: 160px;
+    outline: 2x dashed rgb(255,0,0);
+    box-shadow: 0 0 0 2px rgb(255,239,213);
+    background: transparent;
+    padding: .2em 1.3em;
+    animation: 1s animateBorder ease infinite;
+    box-decoration-break: clone;
+    background-color: lightblue;
+}
+
+@keyframes animateBorder{
+    to{
+        outline-color: rgb(39,144,198);
+        box-shadow: 0 0 0 2px rgb(216,255,248);
+    }
+}
+}
+.paragraph1{
+    text-decoration-color: white;}
+
+
+.T{text-decoration: underline;}
+.section4{ width: 680px; height: 170px;
+outline: 2x dashed rgb(255,0,0);
+    box-shadow: 0 0 0 2px rgb(255,239,213);
+    background: transparent;
+    padding: .2em 1.3em;
+    animation: 1s animateBorder ease infinite;
+    box-decoration-break: clone;
+    background-color: lightblue;}
+
+
+.footer{height: 200px; width: 1750px;  }
+
+

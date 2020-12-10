@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Sign up</title>
+    <link rel="stylesheet" href="form1.css">
+    <script type="text/javascript" src="signup.js"></script>
+</head>
+<body class="body2">
+    <fieldset class="fieldset">
+<form  action="input.php" method="POST" onclick="formvalid()">
+    <table class="table">
+        <tr>
+            <td>Name :</td>
+            <td><input type="text"  name="firstname" required></td>
+            <span name="fn"></span>
+        </tr>
+        <tr>
+            <td>Last Name :</td>
+            <td><input type="text"  name="lastname" required></td>
+            <span name="ln"></span>
+        </tr>
+        <tr>
+            <td>Username :</td>
+            <td><input type="text" name="username" required></td>
+        </tr>
+        <tr>
+            <td>Password :</td>
+            <td><input type="password"  name="password" required></td>
+            <span name="pass"></span>
+        </tr>
+        <tr>
+            <td>Gender :</td>
+            <td>
+                <input type="radio" name="gender" value="m" required>Male
+                <input type="radio" name="gender" value="f" required>Female
+            </td>
+        </tr>
+        <tr>
+            <td>Email :</td>
+            <td><input type="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td>Phone no :</td>
+            <td>
+                <select name="phoneCode" required>
+                    <option selected hidden value="">Select Code</option>
+                    <option value="00355">00355</option>
+                    <option value="0044">0044</option>
+                    <option value="0039">0039</option>
+                    <option value="001">001</option>
+
+                </select>
+                <input type="phone" name="phone" required>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit"></td>
+        </tr>
+    </table>
+</form>
+</fieldset>
+</body>
+</html>
